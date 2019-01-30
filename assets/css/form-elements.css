@@ -1,4 +1,6 @@
 
+select, 
+select.form-control, 
 input[type="text"], 
 textarea, 
 textarea.form-control {
@@ -25,6 +27,8 @@ textarea.form-control {
 	line-height: 30px;
 }
 
+select:focus,
+select.form-control:focus, 
 input[type="text"]:focus, 
 textarea:focus, 
 textarea.form-control:focus {
@@ -38,11 +42,9 @@ input[type="text"]:-moz-placeholder, textarea:-moz-placeholder, textarea.form-co
 input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder, textarea.form-control:-ms-input-placeholder { color: #888; }
 input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder, textarea.form-control::-webkit-input-placeholder { color: #888; }
 
-
-
 button.btn {
-	position: relative;
-	height: 50px;
+    position: relative;
+    height: 50px;
     margin: 0;
     padding: 0 20px;
     vertical-align: middle;
